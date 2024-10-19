@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+}
+
+.app {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 98vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  position: relative;
+}
+
+.app__header {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__title {
+  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #000;
+}
